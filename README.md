@@ -5,7 +5,7 @@
 ## Purpose
 Since my work with Jennifer on the SellBy project was so successful, I have been tasked with another, larger project: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
-In this project, I will have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. I will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, will use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in the dataset.
+In this project, I will have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. I will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, will use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in the dataset. For this project I will be analyzing Amazon reviews for office products and determine if the members are biased or not.
 
 
 ## What I am creating 
@@ -24,7 +24,7 @@ This new assignment consists of two technical analysis deliverables and a writte
 - Python
     - pySpark
     - Pandas
-Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt was used to get the office products source of https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Office_Products_v1_00.tsv.gz
 
 
 ## Results 
