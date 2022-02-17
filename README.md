@@ -30,7 +30,7 @@ Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt was used 
 ## Results 
 
 ### 1. Deliverable 1: Perform ETL on Amazon Product Reviews - 
-Using the cloud ETL process, I will create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extract the dataset into a DataFrame. Then will transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Next, will upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
+Using the cloud ETL process, I will create an AWS RDS database with tables in pgAdmin, pick the office products dataset from the Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Office_Products_v1_00.tsv.gz), and extract the dataset into a DataFrame. Then will transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Next, will upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
 
 Hence in this deliverable, 
 - The Amazon  Review dataset is extracted as a DataFrame 
