@@ -46,6 +46,7 @@ Hence in this deliverable,
 
 - All four DataFrames are loaded into their respective tables in pgAdmin 
 
+![666](https://user-images.githubusercontent.com/23488019/154588196-82525c1e-8372-467a-8c8b-3dccbf477d6e.PNG)
 
 
 ### 2. Deliverable 2 : Determine Bias of Vine Reviews - 
