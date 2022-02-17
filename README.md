@@ -35,8 +35,13 @@ Using the cloud ETL process, I will create an AWS RDS database with tables in pg
 Hence in this deliverable, 
 - The Amazon  Review dataset is extracted as a DataFrame 
 
+![5](https://user-images.githubusercontent.com/23488019/154587836-98c60a43-cf12-434f-94b0-c3e8d50c586a.PNG)
 
 - The extracted dataset is transformed into four DataFrames with the correct columns 
+![4](https://user-images.githubusercontent.com/23488019/154587855-e0667986-37ff-4cde-a645-0f27993e9cff.PNG)
+![3](https://user-images.githubusercontent.com/23488019/154587866-b0dc4b6d-387c-472b-a763-67526a355c14.PNG)
+![2](https://user-images.githubusercontent.com/23488019/154587872-5f4c5a0f-613a-4081-a238-d235b95afd38.PNG)
+![1](https://user-images.githubusercontent.com/23488019/154587879-132b51de-7fb3-4668-bfb6-5b562dd4af9e.PNG)
 
 
 - All four DataFrames are loaded into their respective tables in pgAdmin 
@@ -46,15 +51,23 @@ Hence in this deliverable,
 ### 2. Deliverable 2 : Determine Bias of Vine Reviews - 
 
 Using PySpark, Pandas, and SQL, we will determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we will determine if having a paid Vine review makes a difference in the percentage of 5-star reviews. Steps followed for this deliverable are given below - 
+
+![16](https://user-images.githubusercontent.com/23488019/154587085-6f090f79-8a2c-45a5-adae-324970a70f34.PNG)
+
 1. Filter the data and create a new DataFrame or table to retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on.
+![15](https://user-images.githubusercontent.com/23488019/154587124-a109d88f-b029-4cf1-9494-a47cc576d459.PNG)
 
 2. Filter the new DataFrame or table created in Step 1 and create a new DataFrame or table to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
+![14](https://user-images.githubusercontent.com/23488019/154587157-86adf9e1-ea9d-4529-a638-431a947f4371.PNG)
 
 3. Filter the DataFrame or table created in Step 2, and create a new DataFrame or table that retrieves all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
+![13](https://user-images.githubusercontent.com/23488019/154587196-d10bdcec-ccae-4979-9c59-b218be9f6043.PNG)
 
 4. Repeat Step 3, but this time retrieve all the rows where the review was not part of the Vine program (unpaid), vine == 'N'.
+![12](https://user-images.githubusercontent.com/23488019/154587212-1eb41eb5-abe7-4a02-b3ed-c64c16667383.PNG)
 
 5. Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+![11](https://user-images.githubusercontent.com/23488019/154587222-422057dc-2c7a-4b4e-890c-8fd07068dbc8.PNG)
 
 ##### Using PySpark
 - Create a new Google Colab Notebook, and name it Vine_Review_Analysis.
