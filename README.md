@@ -97,11 +97,14 @@ The data is filtered to create a DataFrame or table where the percentage of help
 The final results can be summarized as below :
 
 ##### 1. How many Vine reviews and non-Vine reviews were there?
-
+There were total 969 paid Amazon Vine reviews and 43745 non-Vine reviews.
 ##### 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-
+There were total 430 Vine review that were 5 stars. 19233 non-Vine reviews were 5 stars.
 ##### 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+The percentage of Vine reviews with 5 stars was 44.375. The percentage of non-Vine reviews with 5 stars was 43.966.
+
 
 ## Summary
-For reviews in the vine program, we can see that there is any positivity bias 
- One additional analysis is that, 
+
+For reviews in the vine program, we can see that there is no ositivity bias for the reviews of Office products in the Vine program of Amazon. The percentage of 5-star reviews for Vine members and non-Vine members were almost the same, i.e, approximately 44%.
+One additional analysis is that, a similar analysis can be conducted for low ratings for paid and unpaid vine members. This analysis can be of 1 star ratings  and similarly different analysis can be made for 2-star, 3-star and 4-star ratings as well.
