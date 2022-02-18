@@ -1,11 +1,17 @@
 # Amazon_Vine_Analysis
+![44](https://user-images.githubusercontent.com/23488019/154592439-392ce2da-f170-4d44-bf97-5be325bccad1.PNG)
 
 ## Background
+I am a data expert at BigMarket, a startup that helps businesses optimize their marketing efforts. One of the clients has requested some pretty hefty amalytics. The client SEllBy is about to release a large catalog of products on a leading online retailer Amazon. They want to know how the reviews of their products  compare to the reviews of similar products sold by their competitors. They are also interested in enrolling in a program 'Vine' that gives out free products to select reviewers. But they want to know if its worth the costs. There are thousands of reviews in words and not numbers. I will need to translate them in order to analyze them. Sellby hired BigMarket because they believe in the power of BigData and I have been given the responsibility to harness that power for the client.
+
+![45](https://user-images.githubusercontent.com/23488019/154592453-55f5e61a-ab04-4640-868f-a07630248ff1.PNG)
 
 ## Purpose
 Since my work with Jennifer on the SellBy project was so successful, I have been tasked with another, larger project: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
-In this project, I will have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. I will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, will use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in the dataset. For this project I will be analyzing Amazon reviews for office products and determine if the members are biased or not.
+![46](https://user-images.githubusercontent.com/23488019/154592462-3c28d694-7f26-4251-ab5d-6206b122725b.PNG)
+
+In this project, I will have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. I will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, will use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in the dataset. For this project I will be analyzing Amazon reviews for office products and determine if the members are biased or not. The summary of the analysis will be handed over to Jennifer so that she can submit it to the SEllBy stakeholders.
 
 
 ## What I am creating 
